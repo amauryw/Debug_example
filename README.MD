@@ -1,4 +1,4 @@
-Programme: Création d'une toDO- liste en Redux
+Programme: Création d'une toDoList en Redux
 
 Explications: le contexte du "this" envoyé pour l'appel du render lors du dispatch de l'action handlePress est le contexte du store dans la librairie Redux: ce this n'a alors pas le state et provoque ainsi l'erreur "undefined" 
 
